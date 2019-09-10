@@ -1,0 +1,14 @@
+Códigos para Tabela HTML
+
+table = inicia a tabela
+tr = table row = linhas da tabela
+td = table division = colunas da tabela
+border = espessura
+cellspacing = espaço entre células
+cellpadding = Distância entre a "borda" da célula até o seu conteúdo
+width = largura
+height = altura
+aling = alinhamento
+colspan = mesclar colunas
+rowspan = mesclar linhas
+&nbsp = deixar célula da tabela vazia

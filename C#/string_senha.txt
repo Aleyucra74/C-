@@ -1,0 +1,3 @@
+set @senha = SUBSTRING(sys.fn_sqlvarbasetostr(HASHBYTES('SHA1', @senhausuario)),3,999)
+     set @usersenha = SUBSTRING(@senha,(len(@senha)/2)+1,len(@senha)/2)+ SUBSTRING(@senha,1,len(@senha)/2)  
+   

@@ -1,0 +1,19 @@
+Create procedure sp_IncluirBloqueios
+@cargo varchar(50),
+@forms varchar(100)
+
+as
+begin
+	declare 
+	@existe int
+
+	set @existe = (select cargo from tbbloqueio where 
+	cargo=@cargo and forms=@forms)
+
+	if @existe is null
+		begin
+			insert into tbbloqueio (cargo,forms)
+			values (@cargo, @forms)
+		end
+	select @existe 
+end

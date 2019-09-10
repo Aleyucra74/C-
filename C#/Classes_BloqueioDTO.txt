@@ -1,0 +1,63 @@
+public class BloqueioDTO
+    {
+        string _cargo;
+        string _formulario;
+        string _mensagens;
+
+        public string cargo
+        {
+            get { return _cargo; }
+            set { _cargo = value; }
+        }
+
+        public string formulario
+        {
+            get { return _formulario; }
+            set { _formulario = value; }
+        }
+
+        public string Mensagens
+        {
+            get { return _mensagens; }
+            set { _mensagens = value; }
+        }
+
+    }
+
+    public class GerenciarBloqueio
+    {
+        public void IncluirBloqueio(BloqueioDTO dados)
+        {
+            //Definir o tipo de comandos do SQL
+            try
+            {
+                SqlCommand cmd = new SqlCommand("sp_IncluirBloqueios", Conexao.obterConexao());
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cargo", dados.cargo);
+                cmd.Parameters.AddWithValue("@forms", dados.formulario);
+
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                bool incluir = false;
+
+
+                if (dr.HasRows)
+                {
+                    // Percorre os registros
+                    while (dr.Read())
+                    {
+                        if (dr.GetValue(0).ToString() == "") incluir = true;
+                    }
+                }
+
+                if (incluir == true)
+                {
+                    dados.Mensagens = "Dados incluídos com sucesso";
+
+                }
+            }
+            catch (SqlException e)
+            {
+                dados.Mensagens = "Erro - GerenciarBloqueio -IncluirBloqueio " + e.Message;
+            }
+        }

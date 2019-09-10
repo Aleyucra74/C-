@@ -1,0 +1,9 @@
+ // Verificar o status da conexão
+            if (conn == null)
+            {
+                MessageBox.Show("Não foi possí­vel obter a conexão. Veja o log de erros.");
+            }
+            else
+            {
+                MessageBox.Show("A conexão foi obtida com sucesso.");
+            }

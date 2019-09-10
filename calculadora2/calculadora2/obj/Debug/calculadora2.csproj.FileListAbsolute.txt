@@ -1,0 +1,9 @@
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\bin\Debug\calculadora2.exe.config
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\bin\Debug\calculadora2.exe
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\bin\Debug\calculadora2.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.csprojResolveAssemblyReference.cache
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.Form1.resources
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.Properties.Resources.resources
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.csproj.GenerateResource.Cache
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.exe
+C:\Users\alexandre.yespinoza\Desktop\C#79\calculadora2\calculadora2\obj\Debug\calculadora2.pdb

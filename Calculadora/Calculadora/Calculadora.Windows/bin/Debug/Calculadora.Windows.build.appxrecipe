@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANA0518493W10-1</Machine>
+    <WindowsUser>alexandre.yespinoza</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>65e3a11f-7fa8-4761-9b61-f01eccda3c76</PackageIdentityName>
+    <PackageIdentityPublisher>CN=alexandre.yespinoza</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\Calculadora.Windows.exe">
+      <PackagePath>Calculadora.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\Calculadora.Windows.xr.xml">
+      <PackagePath>Calculadora.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\alexandre.yespinoza\Desktop\C#79\Calculadora\Calculadora\Calculadora.Windows\Calculadora.Windows.csproj;neutral

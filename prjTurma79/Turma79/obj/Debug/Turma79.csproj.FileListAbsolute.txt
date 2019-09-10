@@ -1,0 +1,14 @@
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.frmAcesso.resources
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.frmClientes.resources
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.Properties.Resources.resources
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.csproj.GenerateResource.Cache
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\Turma79.exe.config
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\Turma79.exe
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\Turma79.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\AcessoBanco.dll
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\AcessoBanco.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.csprojResolveAssemblyReference.cache
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.exe
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\obj\Debug\Turma79.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\TransferenciaDados.dll
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\Turma79\bin\Debug\TransferenciaDados.pdb

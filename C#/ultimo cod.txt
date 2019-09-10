@@ -1,0 +1,36 @@
+Na BLL
+
+public SqlDataReader SelecionaClientes()
+        {
+
+            SqlDataReader reader = null;
+
+            try
+            {
+                
+                bd = new AcessoBancoDados();
+                bd.Conectar();
+
+                reader = bd.RetornaDadosLeitura("Select MAX (LvCodigo) FROM TabLivroEstoque");
+               // string coood = reader[0].ToString();
+
+                //MessageBox.Show(coood);
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao tentar listar o Cliente: " + ex.Message);
+            }
+            finally
+            {
+                bd = null;
+            }
+            return reader;
+
+        }
+
+
+FORM
+            int cood = bll.SelecionaClientes().GetInt32(0) + 1;
+
+            txtID.Text = Convert.ToString(cood);

@@ -1,0 +1,40 @@
+bool selecionachk = false;
+            if (cboCargos.Text == "")
+            {
+                MessageBox.Show("Selecione um cargo...", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+
+                // Instanciar os objetos
+                BloqueioDTO dados = new BloqueioDTO();
+                GerenciarBloqueio gerenciar = new GerenciarBloqueio();
+
+                foreach (Control ctrls in this.Controls)
+                {
+                    if (ctrls is GroupBox)
+                    {
+                        foreach (Control c in ctrls.Controls)
+                        {
+                            CheckBox chkbox = c as CheckBox;
+                            if (chkbox.Checked)
+                            {
+                                selecionachk = true;
+                                dados.cargo = cboCargos.Text;
+                                dados.formulario = chkbox.Text;
+                                gerenciar.IncluirBloqueio(dados);
+                            }
+
+                        }
+                    }
+                }
+                if (selecionachk == false)
+                {
+                    MessageBox.Show("Selecione um ou mais formulários", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show(dados.Mensagens, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                
+            }

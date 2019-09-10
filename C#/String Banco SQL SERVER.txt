@@ -1,0 +1,5 @@
+Data Source=ANA-EDUAP01;
+
+Initial Catalog=;
+
+User ID=;Password=

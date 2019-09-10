@@ -1,0 +1,17 @@
+ if (MessageBox.Show("Deseja realmente sair?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                //Instanciar as classes do usuariosDTO
+                UsuariosDTO dados = new UsuariosDTO();
+                ValidarUsuario validausuario = new ValidarUsuario();
+
+                //Popular os campos
+                dados.nomeusuario = LoginSistema.usuario;
+                dados.senhausuario = LoginSistema.senhausuario;
+
+                //Chamar o método
+                  validausuario.DesconectarUsuario(dados);
+
+
+                Close();
+            }
+

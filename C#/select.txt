@@ -1,0 +1,59 @@
+ string sql = "SELECT * FROM cadastroPaciente WHERE ID=" + textBox10.Text;
+
+            SqlConnection con = new SqlConnection(strCon);
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            con.Open();
+
+            try
+            {
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    button1.Enabled = true;
+                    btnCancelar.Enabled = true;
+                    button3.Enabled = true;
+                    textBox10.Enabled = false;
+                    button4.Enabled = false;
+                    textBox1.Enabled = true;
+                    textBox2.Enabled = true;
+                    textBox3.Enabled = true;
+                    textBox4.Enabled = true;
+                    maskedTextBox1.Enabled = true;
+                    textBox6.Enabled = true;
+                    maskedTextBox2.Enabled = true;
+                    maskedTextBox3.Enabled = true;
+                    maskedTextBox4.Enabled = true;
+                    comboBox1.Enabled = true;
+
+                    textBox1.Focus();
+                    textBox5.Text = reader[0].ToString();
+                    textBox1.Text = reader[1].ToString();
+                    textBox2.Text = reader[2].ToString();
+                    textBox3.Text = reader[3].ToString();
+                    textBox4.Text = reader[4].ToString();
+                    maskedTextBox1.Text = reader[5].ToString();
+                    textBox6.Text = reader[6].ToString();
+                    maskedTextBox2.Text = reader[7].ToString();
+                    maskedTextBox3.Text = reader[8].ToString();
+                    maskedTextBox4.Text = reader[9].ToString();
+                    comboBox1.Text = reader[10].ToString();
+                }
+                else
+                    MessageBox.Show("Nenhum registro encontrado com o Id informado!");
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.ToString());
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            textBox10.Text = "";
+
+        }

@@ -1,0 +1,1 @@
+SUBSTRING(sys.fn_sqlvarbasetostr(HASHBYTES('SHA1', @SENHA_USUARIO)),3,999)

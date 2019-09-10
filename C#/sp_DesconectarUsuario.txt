@@ -1,0 +1,11 @@
+create procedure sp_DesconectarUsuario    
+@nomeusuario varchar(100),
+@senhausuario varchar(100)
+
+as 
+Begin
+	update tbUsuarios  
+	set logado='0'  
+	where NomeUsuario=@nomeusuario and senhausuario = SUBSTRING(@senhausuario,(len(@senhausuario)/2)+1,len(@senhausuario)/2)+ SUBSTRING(@senhausuario,1,len(@senhausuario)/2)
+End
+go

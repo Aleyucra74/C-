@@ -1,0 +1,33 @@
+  public void DesconectarUsuario(UsuariosDTO dados)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("sp_DesconectarUsuario", Conexao.obterConexao());
+                cmd.CommandType = CommandType.StoredProcedure;
+                // popular os parâmetros da Stored Procedure
+                cmd.Parameters.AddWithValue("@nomeusuario", dados.NomeUsuario);
+                cmd.Parameters.AddWithValue("@senhausuario", dados.SenhaUsuario);
+
+                //Utilizar uma tabela temporária
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                // Verificar a existência de registros (linhas)
+                if (dr.HasRows)
+                {
+                    // Percorre os registros
+                    while (dr.Read())
+                    {
+                        //Popular com os dados de retorno da Stored Procedure
+                        //   dados.Logado = dr.GetValue(0).ToString();
+                        //  LoginSistema.usuario = dados.NomeUsuario;
+                    }
+
+                }
+
+            }
+            catch (SqlException e)
+            {
+                //dados.msg = "Erro - ValidarUsuario - VerificarUsuario " + e.Message;
+            }
+
+        }

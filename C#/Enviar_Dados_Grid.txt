@@ -1,0 +1,6 @@
+string teste = string.Empty;
+
+            for (int i = 0; i <= dgvClientes.RowCount - 1; i++)
+            {
+                teste = dgvClientes.Rows[i].Cells[0].Value.ToString();
+            }

@@ -1,0 +1,10 @@
+foreach (Assembly a in AppDomain.CurrentDomain.GetAssemblies())
+            {
+                foreach (Type t in a.GetTypes())
+                {
+                    if (t.BaseType != null && t.BaseType.FullName != null && t.BaseType.FullName.ToString() == "System.Windows.Forms.Form" && t.Name.Substring(0, 3) == "frm")
+                    {
+                        listaFormularios.Add(t.Name);
+                    }
+                }
+            }

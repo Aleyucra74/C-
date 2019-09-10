@@ -1,0 +1,6 @@
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\bin\Debug\AcessoBanco.dll.config
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\bin\Debug\AcessoBanco.dll
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\bin\Debug\AcessoBanco.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\obj\Debug\AcessoBanco.dll
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\obj\Debug\AcessoBanco.pdb
+C:\Users\alexandre.yespinoza\Desktop\C#79\prjTurma79\AcessoBanco\obj\Debug\AcessoBanco.csprojResolveAssemblyReference.cache

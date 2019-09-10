@@ -1,0 +1,45 @@
+Conceitos e prática com DataGridView
+Name:frmGrid
+Text : Trabalhar com DatagridView 
+
+Controle Panel
+Name : pnlDados
+
+Controle Label
+Name : lblNome
+
+Controle TextBox
+Name : txtNome
+
+Controle Button
+Name : btnPesquisar
+text : Pesquisar
+
+Controle DataGridView
+Name : dgvClientes
+
+Colunas :
+Código do Cliente
+Nome
+Endereço
+Bairro
+
+-Acrescentar a classe ConsultarCliente
+-Desenvolver a rotina de Pesquisar no frmgrid
+ - Receber os dados no textbox
+ - Instanciar a classe ConsultarCliente
+ - Popular o grid (carregar o grid com os dados da consulta)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
